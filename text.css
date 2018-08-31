@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Uncial+Antiqua');
+
+body{
+    max-width:800px;
+    margin:auto;
+    font-family: 'Dancing Script', cursive;
+    background-color:#D3D3D3;
+} 
+
+header{
+    background-color: #8B0000;
+    padding:25px;
+    color: #FFFFE0;
+    margin-top: 10px;
+}
+
+header nav span{
+    color: yellow;
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+header .number{
+    flex: 3;
+}
+
+header div ul li{
+    list-style-type: none;
+}
+
+main nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+     margin-left: 2%;
+}
+
+main nav ul{
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+}
+    
+main nav ul li a{
+    text-decoration: none;
+    color:  #FFFFE0;
+}
+
+main nav ul li a:hover{
+    font-size: 30px;
+}
+
+main nav{
+    background-color: #8B0000;
+    color:  #FFFFE0;
+}
+
+main #top {
+     font-family:  'Uncial Antiqua', cursive;
+     text-align: center;
+     font-size: 30px;
+}
+
+main #topfoto{
+    height: 300px;
+    background-image: url(../.jpg);
+   margin-left: 40px;
+   margin-right: 40px;
+}
+
+main #descrip{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family:'Uncial Antiqua', cursive;
+}
+
+main #town{
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main #middle{
+    margin-left: 40px;
+    margin-right: 40;
+}
+
+main #street{
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+footer{
+    display: flex;
+    color:#FFFFE0;
+    font-size: 10px;
+    margin-bottom: 15px;
+    background-color:  #8B0000;
+}
+
+footer nav ul li a{
+    color:#FFFFE0;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+footer nav ul li{
+    list-style-type: none;
+}
+
+footer div ul li{
+    list-style-type: none;
+}
+
+footer div form:only-child{
+    margin-left: 100px;
+    margin-top: 70px;
+    border:1px solid:black;
+}
+
+footer div ul {
+    margin-top: 50px;
+}
+
+footer nav ul{
+    margin-top: 50px;
+}
+
+footer nav ul li a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+}
